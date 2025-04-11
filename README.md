@@ -28,7 +28,7 @@ This is an unofficial Google Messages desktop application built with Electron. I
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Alyetama/Gemini-Desktop.git
+   git clone git@github.com:Alyetama/Google-Messages-Desktop.git
    ```
 
 2. **Install dependencies:**
