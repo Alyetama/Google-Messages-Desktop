@@ -1,0 +1,26 @@
+{
+  "name": "googlemessagesdesktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "node build-script.js"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.alyetama.googlemessagesdesktop",
+    "productName": "Google Messages Desktop",
+    "publish": null,
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "assets/google-messages-icon.icns",
+      "target": [
+        "dmg"
+      ]
+    }
+  }
+}
