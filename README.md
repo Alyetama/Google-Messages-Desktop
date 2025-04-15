@@ -16,7 +16,7 @@ This is an unofficial Google Messages desktop application built with Electron. I
 ## Installation 📥
 
 1. **Download the latest release:**
-   - **macOS (arm64):** [Download](https://github.com/Alyetama/Google-Messages-Desktop/releases/download/v1.0.0/Google.Messages.Desktop-v1.0.0-arm64.dmg)
+   - **macOS (arm64):** [Download](https://github.com/Alyetama/Google-Messages-Desktop/releases/download/v1.0.1/Google.Messages.Desktop-v1.0.1-arm64.dmg)
 
 2. **Install the app:**
    - **macOS:** Open the `.dmg` file and drag the app to your Applications folder.
