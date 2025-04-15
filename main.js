@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, shell } = require('electron');
 const path = require('path');
 
 let mainWindow;
@@ -16,6 +16,11 @@ function createMainWindow() {
     });
 
     mainWindow.loadURL('https://messages.google.com/web/conversations');
+
+    mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+        shell.openExternal(url);
+        return { action: 'deny' };
+    });
 
     mainWindow.on('close', (event) => {
         if (!app.isQuiting) {
